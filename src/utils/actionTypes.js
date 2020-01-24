@@ -1,0 +1,15 @@
+export const LOGIN_REQUEST = 'LOGIN_REQUEST';
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const API_CALL_REQUEST = 'API_CALL_REQUEST';
+export const API_CALL_FAILURE = 'API_CALL_FAILURE';
+export const API_CALL_SUCCESS = 'API_CALL_SUCCESS';
+export const API_CALL_END = 'API_CALL_END';
+export const LOGOUT = 'LOGOUT';
+export const LOGOUT_SUCCESS = 'LOGOUT_SUCCESS';
+export const SUCCESS_OPERATION = 'SUCCESS_OPERATION';
+export const GET_HOTELS = 'GET_HOTELS';
+export const SET_HOTELS = 'SET_HOTELS';
+export const SELECT_HOTEL = 'SELECT_HOTEL';
+export const UPDATE_RESERVATION = 'UPDATE_RESERVATION';
+export const SAVE_ACCOUNT = 'SAVE_ACCOUNT';
+export const ADD_CARD = 'ADD_CARD';

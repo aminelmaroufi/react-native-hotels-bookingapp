@@ -1,0 +1,145 @@
+{
+  "hotels": [
+    {
+      "_id": "1",
+      "name": "Hotel Villa Saxe eiffel",
+      "rating": "4",
+      "pic1_url": "https://q-cf.bstatic.com/images/hotel/max1280x900/304/30437986.jpg",
+      "pic_url_2": "https://q-cf.bstatic.com/images/hotel/max1280x900/295/29514206.jpg",
+      "short_address": "7th arr. 3.2 km from center",
+      "address": "9 Villa de Saxe, 7th arr., Paris, 75007 France",
+      "location": "350 m from Metro / Tube station (Ségur)",
+      "type": "Classic Double Room",
+      "rooms": [
+        {
+          "_id": 1,
+          "title": "Super Double or Twin room",
+          "advantage": "Breakfast availible, pay at the property.",
+          "room_pic_url": "https://q-cf.bstatic.com/images/hotel/max1024x768/342/34277478.jpg",
+
+          "price": "215"
+        },
+        {
+          "_id": 2,
+          "title": "Super Double or Twin room",
+          "advantage": "Fabulous breakfast included in the room rate.",
+          "room_pic_url": "https://q-cf.bstatic.com/images/hotel/max1024x768/342/34277478.jpg",
+
+          "price": "240"
+        }
+      ]
+    },
+    {
+      "_id": "2",
+      "name": "Le Temple De Jeanne",
+      "rating": "4",
+      "pic1_url": "https://www.letempledejeanne.com/wp-content/uploads/2018/10/Temple-de-Jeanne-ronde-2.jpg",
+      "pic_url_2": "https://static-ng.verychic.com/prod_img/27971/fr/desktop/temple_de_jeanne_02.jpg",
+      "short_address": "4th arr. 700 m from center",
+      "address": "125 Rue Saint-Antoine, 4th arr., Paris, 75004 France",
+      "location": "50 m from Metro / tube station (Saint-Paul)",
+      "type": "Single Room",
+      "rooms": [
+        {
+          "_id": 1,
+          "title": "Single Room",
+          "advantage": "Breakfast availible, pay at the property.",
+          "room_pic_url": "https://q-cf.bstatic.com/images/hotel/max1024x768/164/164530095.jpg",
+
+          "price": "101"
+        },
+        {
+          "_id": 2,
+          "title": "Single Room",
+          "advantage": "Good breakfast included in the room rate.",
+          "room_pic_url": "https://q-cf.bstatic.com/images/hotel/max1024x768/164/164530095.jpg",
+
+          "price": "220"
+        }
+      ]
+    },
+    {
+      "_id": "3",
+      "name": "Hôtel La Comtesse",
+      "rating": "4",
+      "pic1_url": "https://r-cf.bstatic.com/images/hotel/max1024x768/717/71769365.jpg",
+      "pic_url_2": "https://q-cf.bstatic.com/images/hotel/max1024x768/746/74633926.jpg",
+      "short_address": "7th arr. 3,3 km from center",
+      "address": "29, Avenue De Tourville, 7th arr., Paris, 75007 France",
+      "location": "150 m from Metro / tube station (Ecole militaire)",
+      "type": "Double Room Baronne - Eiffel Tower Side View",
+      "rooms": [
+        {
+          "_id": 1,
+          "title": "Double Room Baronne - Eiffel Tower Side View",
+          "advantage": "Breakfast availible, pay at the property.",
+          "room_pic_url": "https://r-cf.bstatic.com/images/hotel/max1024x768/717/71769365.jpg",
+
+          "price": "189"
+        },
+        {
+          "_id": 2,
+          "title": "Double Room Baronne - Eiffel Tower Side View",
+          "advantage": "Very good breakfast included in the room rate.",
+          "room_pic_url": "https://r-cf.bstatic.com/images/hotel/max1024x768/717/71769365.jpg",
+
+          "price": "233"
+        }
+      ]
+    },
+    {
+      "_id": "4",
+      "name": "Hôtel Le Walt",
+      "rating": "4",
+      "pic1_url": "https://q-cf.bstatic.com/images/hotel/max1024x768/222/222838975.jpg",
+      "short_address": "7th arr.",
+      "pic_url_2": "https://pix10.agoda.net/hotelImages/7540890/0/1cc1b1c74c7791e10fc66a18e62fd161.jpg",
+      "address": "37, Avenue De La Motte Picquet, 7th arr., Paris, 75007 France",
+      "location": "50 m from Metro / tube station (Ecole militaire)",
+      "type": "Classic Double Room",
+      "rooms": [
+        {
+          "_id": 1,
+          "title": "Classic Double Room",
+          "advantage": "Breakfast availible, pay at the property.",
+          "room_pic_url": "https://q-cf.bstatic.com/images/hotel/max1024x768/222/222838975.jpg",
+          "price": "189"
+        },
+        {
+          "_id": 2,
+          "title": "Classic Double Room",
+          "advantage": "Very good breakfast included in the room rate.",
+          "room_pic_url": "https://q-cf.bstatic.com/images/hotel/max1024x768/222/222838975.jpg",
+          "price": "196"
+        }
+      ]
+    },
+    {
+      "_id": "5",
+      "name": "Hôtel Le Relais Saint Charles",
+      "rating": "3",
+      "pic1_url": "https://r-cf.bstatic.com/images/hotel/max1024x768/595/5952737.jpg",
+      "pic_url_2": "https://q-xx.bstatic.com/images/hotel/max500/103/10375290.jpg",
+      "short_address": "15th arr., 4,4 km from centre",
+      "address": "72 Boulevard de Granelle, 15th arr., Paris, 75015 France",
+      "location": "50 m from Metro / tube station (Dupleix)",
+      "type": "Classic Double Room - Street View",
+      "rooms": [
+        {
+          "_id": 1,
+          "title": "Classic Double Room - Countyard View",
+          "advantage": "Breakfast availible, pay at the property.",
+          "room_pic_url": "https://r-cf.bstatic.com/images/hotel/max1024x768/595/5952737.jpg",
+          "price": "109"
+        },
+        {
+          "_id": 2,
+          "title": "Classic Double Room - Street Viewm",
+          "advantage": "Breakfast availible, pay at the property.",
+          "room_pic_url": "https://r-cf.bstatic.com/images/hotel/max1024x768/595/5952737.jpg",
+          "price": "119"
+        }
+      ]
+    }
+  ]
+}
