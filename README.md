@@ -5,7 +5,7 @@ iOS
 In the root directory
 
 - Install dependencies: npm instal
-In the ios directory
+- In the ios directory
 
 -Install Pods: gem install cocoapods
 -Install Pods: pod install
