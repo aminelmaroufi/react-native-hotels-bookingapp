@@ -8,10 +8,10 @@ In the root directory
 
 In the ios directory
 
--Install Pods: gem install cocoapods
--Install Pods: pod install
--Install xcpretty: gem install xcpretty
--Launch: open hotel_booking_mobileapp.xcworkspace
+- Install Pods: gem install cocoapods
+- Install Pods: pod install
+- Install xcpretty: gem install xcpretty
+- Launch: open hotel_booking_mobileapp.xcworkspace
 
 Android
 
