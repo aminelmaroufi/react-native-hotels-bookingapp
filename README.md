@@ -1,10 +1,11 @@
 # Booking hotels mobile app using React Native and Redux/redux-saga
 
-### iOS
 
 In the root directory
 
 - Install dependencies: ``` npm install ```
+
+### iOS
 
 In the ios directory
 
