@@ -1,4 +1,4 @@
-# Booking hotels mobile app using React Native and Redux/redux-saga
+# Booking hotels mobile app example using React Native and Redux/redux-saga
 
 
 In the root directory
