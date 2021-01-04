@@ -26,6 +26,7 @@
 		461D65BF844E40E89BB5EDA0 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33DB3E52D2B3486E90181CB2 /* MaterialCommunityIcons.ttf */; };
 		49340F6593E442CB93889554 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D716AAF5C8594D15B1A51969 /* AntDesign.ttf */; };
 		4EB42D13966348516B513BBB /* libPods-hotel_booking_mobileappTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC9F411D5DDFBC45C3B3391 /* libPods-hotel_booking_mobileappTests.a */; };
+		674672C5259CD2EE0075CFEA /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 674672C4259CD2EE0075CFEA /* AppCenter-Config.plist */; };
 		7F654310E49D486D871489F7 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD48D0283B224FC1BCAE8103 /* Zocial.ttf */; };
 		88B04A0575854694B08C4EAB /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C741260BE3645C399A040E2 /* Ionicons.ttf */; };
 		ADE0E83703174AEFA94408CD /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3FC3B9D78664C1D995C3423 /* Fontisto.ttf */; };
@@ -62,7 +63,7 @@
 		00E356F21AD99517003FC87E /* hotel_booking_mobileappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hotel_booking_mobileappTests.m; sourceTree = "<group>"; };
 		029AF6E6FE3FAB6694C35856 /* Pods-hotel_booking_mobileapp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hotel_booking_mobileapp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-hotel_booking_mobileapp-tvOS/Pods-hotel_booking_mobileapp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		08BE23055B00AC305E497071 /* Pods-hotel_booking_mobileapp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hotel_booking_mobileapp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-hotel_booking_mobileapp-tvOSTests/Pods-hotel_booking_mobileapp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		0EFA4A12E2E141E0B1D1BA4C /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		0EFA4A12E2E141E0B1D1BA4C /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* hotel_booking_mobileapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hotel_booking_mobileapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = hotel_booking_mobileapp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = hotel_booking_mobileapp/AppDelegate.m; sourceTree = "<group>"; };
@@ -70,35 +71,36 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = hotel_booking_mobileapp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = hotel_booking_mobileapp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = hotel_booking_mobileapp/main.m; sourceTree = "<group>"; };
-		14E9F223DBD245EF99E6E921 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		14E9F223DBD245EF99E6E921 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
 		2154141273BEB1D6808DAA9D /* Pods-hotel_booking_mobileapp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hotel_booking_mobileapp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-hotel_booking_mobileapp-tvOSTests/Pods-hotel_booking_mobileapp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		26AD9A9739D97C4CF4A6AF7F /* Pods-hotel_booking_mobileappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hotel_booking_mobileappTests.release.xcconfig"; path = "Target Support Files/Pods-hotel_booking_mobileappTests/Pods-hotel_booking_mobileappTests.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* hotel_booking_mobileapp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hotel_booking_mobileapp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* hotel_booking_mobileapp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hotel_booking_mobileapp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F47E2141E6446ADA86C2523 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
-		3112282DC0D8469C811A8459 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
-		33DB3E52D2B3486E90181CB2 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		2F47E2141E6446ADA86C2523 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		3112282DC0D8469C811A8459 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		33DB3E52D2B3486E90181CB2 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		364ED5B7ECF161F752E846CA /* libPods-hotel_booking_mobileapp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hotel_booking_mobileapp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AC9F411D5DDFBC45C3B3391 /* libPods-hotel_booking_mobileappTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hotel_booking_mobileappTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56503647432E442DA903D761 /* Pods-hotel_booking_mobileappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hotel_booking_mobileappTests.debug.xcconfig"; path = "Target Support Files/Pods-hotel_booking_mobileappTests/Pods-hotel_booking_mobileappTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DBBB48AB2914BCCBBC551E3 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		5DBBB48AB2914BCCBBC551E3 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		671D43C0F0385EB4EDFDB45A /* Pods-hotel_booking_mobileapp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hotel_booking_mobileapp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-hotel_booking_mobileapp-tvOS/Pods-hotel_booking_mobileapp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		6C741260BE3645C399A040E2 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		674672C4259CD2EE0075CFEA /* AppCenter-Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AppCenter-Config.plist"; sourceTree = "<group>"; };
+		6C741260BE3645C399A040E2 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		739BAC5C66533EF9B0FF9704 /* libPods-hotel_booking_mobileapp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hotel_booking_mobileapp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9832D200B2E6E8C0FF0475D1 /* Pods-hotel_booking_mobileapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hotel_booking_mobileapp.release.xcconfig"; path = "Target Support Files/Pods-hotel_booking_mobileapp/Pods-hotel_booking_mobileapp.release.xcconfig"; sourceTree = "<group>"; };
 		A05E120C7DBB401192515A12 /* libPods-hotel_booking_mobileapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hotel_booking_mobileapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A802BBE5D9204BE7AC5038F4 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
-		AD48D0283B224FC1BCAE8103 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
-		BC4955C22AB444A49313550F /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
-		C3FC3B9D78664C1D995C3423 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
-		D2E6C8BAD536419F96B4CBFD /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
-		D34E1A3696DB4BF6B12027E0 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
-		D561898B54AA4D3BAA5621B9 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
-		D716AAF5C8594D15B1A51969 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		A802BBE5D9204BE7AC5038F4 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		AD48D0283B224FC1BCAE8103 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		BC4955C22AB444A49313550F /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		C3FC3B9D78664C1D995C3423 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		D2E6C8BAD536419F96B4CBFD /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		D34E1A3696DB4BF6B12027E0 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		D561898B54AA4D3BAA5621B9 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		D716AAF5C8594D15B1A51969 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F11CE178042F8902A4FCB37F /* Pods-hotel_booking_mobileapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hotel_booking_mobileapp.debug.xcconfig"; path = "Target Support Files/Pods-hotel_booking_mobileapp/Pods-hotel_booking_mobileapp.debug.xcconfig"; sourceTree = "<group>"; };
-		FF8F017D6F694C1181E0BE6A /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		FF8F017D6F694C1181E0BE6A /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +195,6 @@
 				56503647432E442DA903D761 /* Pods-hotel_booking_mobileappTests.debug.xcconfig */,
 				26AD9A9739D97C4CF4A6AF7F /* Pods-hotel_booking_mobileappTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -218,7 +219,6 @@
 				AD48D0283B224FC1BCAE8103 /* Zocial.ttf */,
 			);
 			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -231,6 +231,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				674672C4259CD2EE0075CFEA /* AppCenter-Config.plist */,
 				13B07FAE1A68108700A75B9A /* hotel_booking_mobileapp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* hotel_booking_mobileappTests */,
@@ -366,6 +367,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -400,6 +402,7 @@
 				CC9CECC74B204483AEBFBF16 /* Entypo.ttf in Resources */,
 				D2540A301D2B4BAEB3AD3E69 /* EvilIcons.ttf in Resources */,
 				E0E3B41B77ED4021BC371AC2 /* Feather.ttf in Resources */,
+				674672C5259CD2EE0075CFEA /* AppCenter-Config.plist in Resources */,
 				20B5774BE2354D019C6D3749 /* FontAwesome.ttf in Resources */,
 				3B3459B44E004F3592BCD056 /* FontAwesome5_Brands.ttf in Resources */,
 				C7EC13AAAE364A07B7DB32EB /* FontAwesome5_Regular.ttf in Resources */,

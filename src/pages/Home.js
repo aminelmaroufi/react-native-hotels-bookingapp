@@ -6,7 +6,7 @@ import {
   FlatList,
   TouchableOpacity,
   Image,
-  Text
+  Text,
 } from "react-native";
 import Icon from "react-native-vector-icons/FontAwesome";
 import { Rating } from "react-native-elements";
@@ -15,18 +15,18 @@ import { getHotels, selectHotel } from "../actions/reservation";
 
 const mapStateToProps = (state, newProps) => {
   return {
-    hotels: state.reservation.hotels
+    hotels: state.reservation.hotels,
   };
 };
 
-const mapDispatchToProps = dispatch => {
+const mapDispatchToProps = (dispatch) => {
   return {
-    onGetHotels: hotels => {
+    onGetHotels: (hotels) => {
       dispatch(getHotels());
     },
-    onSelectHotel: hotel => {
+    onSelectHotel: (hotel) => {
       dispatch(selectHotel(hotel));
-    }
+    },
   };
 };
 
@@ -50,7 +50,7 @@ class Home extends Component {
           source={{ uri: item.pic1_url }}
           style={{
             height: 190,
-            width: 130
+            width: 130,
           }}
         />
         <View style={styles.info}>
@@ -77,7 +77,7 @@ class Home extends Component {
               alignItems: "flex-end",
               position: "absolute",
               bottom: 5,
-              right: 10
+              right: 10,
             }}
           >
             <Text style={styles.room}>{item.type}</Text>
@@ -88,7 +88,7 @@ class Home extends Component {
     );
   };
 
-  selectHotel = item => {
+  selectHotel = (item) => {
     this.props.onSelectHotel(item);
     this.props.navigation.navigate("HotelDetails");
   };
@@ -101,8 +101,8 @@ class Home extends Component {
         <FlatList
           data={hotels}
           numColumns={1}
-          keyExtractor={item => item._id}
-          renderItem={item => this._renderItem(item)}
+          keyExtractor={(item) => item._id}
+          renderItem={(item) => this._renderItem(item)}
         />
       </ScrollView>
     );
@@ -113,43 +113,46 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#fff",
-    padding: 10
+    padding: 10,
   },
   hotelRow: {
     flexDirection: "row",
     padding: 10,
     paddingBottom: 15,
     borderBottomWidth: 3,
-    borderBottomColor: "#f4ab49"
+    borderBottomColor: "#f4ab49",
   },
   row: {
     flexDirection: "row",
-    padding: 10
+    padding: 10,
   },
   info: {
     flex: 1,
-    padding: 10
+    padding: 10,
   },
   title: {
     fontSize: 15,
     color: "#000",
     fontWeight: "bold",
-    marginRight: 7
+    marginRight: 7,
   },
   adress: {
     fontSize: 14,
-    color: "#000"
+    color: "#000",
   },
   room: {
     fontSize: 12,
-    color: "#000"
+    color: "#000",
   },
   price: {
     fontSize: 17,
     fontWeight: "bold",
     color: "#000",
-    marginTop: 5
-  }
+    marginTop: 5,
+  },
 });
 
-export default connect(mapStateToProps, mapDispatchToProps)(Home);
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(Home);
