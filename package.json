@@ -10,9 +10,9 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "appcenter": "4.0.2",
-    "appcenter-analytics": "4.0.2",
-    "appcenter-crashes": "4.0.2",
+    "appcenter": "4.4.5",
+    "appcenter-analytics": "4.4.5",
+    "appcenter-crashes": "4.4.5",
     "moment": "^2.24.0",
     "react": "16.9.0",
     "react-native": "0.61.5",
